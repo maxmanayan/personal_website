@@ -1,7 +1,7 @@
 import emailjs from 'emailjs-com';
 import { useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { MAX_BLUE, MAX_BLUE_OPAQUE } from '../colors';
+import { MAX_BLUE } from '../colors';
 
 
 const ContactForm = () => {
