@@ -1,6 +1,8 @@
 # My Personal Website!
+## Check it Out!
+### (https://maxmanayan.netlify.app/)
 
-## Includes:
+### Includes:
 * About Me
 * Portfolio
 * Email Form
