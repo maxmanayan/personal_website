@@ -15,6 +15,39 @@ const MyProjects = () => {
               <Jumbotron style={{border: 'none', background: `${CONTENT_BACKGROUND_GRAY}`}}>
                 <div>
                   <Image 
+                    src={coffeeNotes} 
+                    rounded
+                    style={{
+                      width: '100%',
+                      height: '15em',
+                      objectFit: 'cover',
+                    }}/>
+                </div>
+                <div style={{margin: '1em', display: 'flex'}}>
+                  <a className='link' target='_blank' rel="noreferrer" href='https://coffeeandnotes.herokuapp.com/'>
+                    <h3 style={{marginRight: '2em'}}>Coffee Notes</h3>
+                  </a>
+                  <a target='_blank' rel="noreferrer" href='https://github.com/maxmanayan/coffee-notes'>
+                    <Image src={githubLogo} style={{height: '2em'}} />
+                  </a>
+                </div>
+                <div style={{margin: '1em'}}>
+                  <p>
+                    Coffee Notes is an app designed to assist users with organization of their tasks.
+                    Currently featuring a personalized todo-list and kanban board, this app will increase
+                    productivity and focus while in use. Create an account!
+                  </p>
+                  <p>
+                    Featuring - React hooks, Drag-and-Drop, Todo-List, Responsive Design, Smooth
+                    Scroll, React router, React Bootstrap
+                  </p>
+                </div>
+              </Jumbotron>
+            </div>
+            <div>
+              <Jumbotron style={{border: 'none', background: `${CONTENT_BACKGROUND_GRAY}`}}>
+                <div>
+                  <Image 
                     src={hackathonGrader} 
                     rounded
                     style={{
@@ -36,39 +69,14 @@ const MyProjects = () => {
                     Hackathon Grader is a streamlined grading system for hackathons.
                     This app is currently being used by DevPoint Labs in Salt Lake City, UT.
                   </p>
-                </div>
-              </Jumbotron>
-            </div>
-            <div>
-              <Jumbotron style={{border: 'none', background: `${CONTENT_BACKGROUND_GRAY}`}}>
-                <div>
-                  <Image 
-                    src={coffeeNotes} 
-                    rounded
-                    style={{
-                      width: '100%',
-                      height: '15em',
-                      objectFit: 'cover',
-                    }}/>
-                </div>
-                <div style={{margin: '1em', display: 'flex'}}>
-                  {/* <a className='link' target='_blank' rel="noreferrer" href='https://dpl-hackathon-grader.herokuapp.com/'> */}
-                    <h3 style={{marginRight: '2em'}}>Coffee Notes (Coming Soon)</h3>
-                  {/* </a> */}
-                  {/* <a target='_blank' rel="noreferrer" href='https://github.com/Matt8728/hackathon_grader'>
-                    <Image src={githubLogo} style={{height: '2em'}} />
-                  </a> */}
-                </div>
-                <div style={{margin: '1em'}}>
                   <p>
-                    Coffee Notes is an app designed to assist users with organization of their tasks.
-                    Currently featuring a personalized todo-list and kanban board, this app will increase
-                    productivity and focus while in use.
+                    Featuring - SQL, React hooks, styled components, has-many-through, React router
                   </p>
-                  <p>
-                    Featuring - Drag and Drop, Smooth Scrolling, Ability to email the developer (me) with 
-                    suggestions on improving the app!
-                  </p>
+                  <div style={{textAlign: 'center'}}>
+                    <a className='link' target='_blank' rel="noreferrer" href='https://www.youtube.com/watch?v=p0_mTK9Juyk '>
+                      <h5>Watch the Commercial!</h5>
+                    </a>
+                  </div>
                 </div>
               </Jumbotron>
             </div>
