@@ -35,7 +35,10 @@ const Home = () => {
               <Col
                 xs={12}
                 md={{ span: 4 }}
-                style={{ display: "flex", justifyContent: "center" }}
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                }}
               >
                 <Link to="/portfolio">
                   <Button

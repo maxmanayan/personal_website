@@ -1,5 +1,6 @@
 import { Nav, Navbar } from "react-bootstrap";
 import { MAX_BLUE, MAX_DARK, MAX_WHITE } from "../colors";
+import logo from "../images/m-logo-no-background.png";
 
 const NavBar = () => {
   return (
@@ -15,7 +16,7 @@ const NavBar = () => {
           href="/"
           style={{ color: `${MAX_BLUE}`, fontWeight: "bold" }}
         >
-          Home
+          <img src={logo} style={{ width: "50px" }} />
         </Navbar.Brand>
 
         <Navbar.Toggle
