@@ -16,7 +16,7 @@ const NavBar = () => {
           href="/"
           style={{ color: `${MAX_BLUE}`, fontWeight: "bold" }}
         >
-          <img src={logo} style={{ width: "50px" }} />
+          <img src={logo} style={{ width: "50px" }} alt="Home" />
         </Navbar.Brand>
 
         <Navbar.Toggle
