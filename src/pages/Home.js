@@ -23,8 +23,8 @@ const Home = () => {
 
         <Row style={{ paddingBottom: "2em" }}>
           <Col xs={12} md={{ span: 6, offset: 5 }}>
-            <h2 style={{ color: `${MAX_DARK}`, fontSize: "3vw" }}>
-              Software Engineer
+            <h2 style={{ color: `${MAX_DARK}`, fontSize: "2.4vw" }}>
+              Full-Stack Web Developer
             </h2>
           </Col>
         </Row>
