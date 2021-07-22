@@ -31,8 +31,9 @@ const About = () => {
                 Hi, I'm Max Manayan!
               </h1>
               <h5 style={{ color: `${MAX_DARK}` }}>
-                I am a full-stack engineer with a passion for building
-                applications that help improve peoples' day-to-day lives.
+                I am a full-stack engineer/web developer with a passion for
+                building applications that help improve peoples' day-to-day
+                lives.
               </h5>
               <h5 style={{ color: `${MAX_DARK}` }}>
                 Coming from a background in biological sciences, I enjoy
