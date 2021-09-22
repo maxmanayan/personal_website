@@ -63,6 +63,7 @@ const MyProjects = () => {
                     increase productivity and focus while in use. Create an
                     account!
                   </p>
+                  <p>Stack - PostgreSQL, Ruby on Rails, React</p>
                   <p>
                     Featuring - React hooks, Drag-and-Drop, Todo-List,
                     Responsive Design, Smooth Scroll, React router, React
@@ -112,6 +113,7 @@ const MyProjects = () => {
                     hackathons. This app is currently being used by DevPoint
                     Labs in Salt Lake City, UT.
                   </p>
+                  <p>Stack - PostgreSQL, Ruby on Rails, React</p>
                   <p>
                     Featuring - SQL, React hooks, styled components,
                     has-many-through, React router
