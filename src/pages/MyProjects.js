@@ -57,17 +57,15 @@ const MyProjects = () => {
                 </div>
                 <div style={{ margin: "1em" }}>
                   <p>
-                    Coffee Notes is an app designed to assist users with
-                    organization of their tasks. Currently featuring a
-                    personalized todo-list and kanban board, this app will
-                    increase productivity and focus while in use. Create an
-                    account!
+                    ecoECHO is an online forum focused on discussing humanity's
+                    impact on our environment 🌎 Includes personalized,
+                    authenticated accounts in which users can post about
+                    environmental issues, and upvote/comment on other issues.
                   </p>
-                  <p>Stack - PostgreSQL, Ruby on Rails, React</p>
+                  <p>Stack - MongoDB, Node.js, Express.js, React.js</p>
                   <p>
-                    Featuring - React hooks, Drag-and-Drop, Todo-List,
-                    Responsive Design, Smooth Scroll, React router, React
-                    Bootstrap
+                    Featuring - GraphQL and Apollo API design, authentication
+                    with jsonwebtoken and bcrypt, responsive-design
                   </p>
                 </div>
               </Jumbotron>
