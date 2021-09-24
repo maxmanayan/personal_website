@@ -1,8 +1,9 @@
 import { Col, Container, Image, Jumbotron, Row } from "react-bootstrap";
+import { CONTENT_BACKGROUND_GRAY, MAX_BLUE } from "../colors";
 import hackathonGrader from "../images/Hackathon_Grader.png";
 import githubLogo from "../images/GitHub-Mark-120px-plus.png";
-import { CONTENT_BACKGROUND_GRAY, MAX_BLUE } from "../colors";
 import coffeeNotes from "../images/cn_about_website.jpg";
+import ecoECHO from "../images/ecoECHO.png";
 
 const MyProjects = () => {
   return (
@@ -20,6 +21,56 @@ const MyProjects = () => {
             >
               PORTFOLIO
             </h1>
+            <div>
+              <Jumbotron
+                style={{
+                  border: "none",
+                  background: `${CONTENT_BACKGROUND_GRAY}`,
+                }}
+              >
+                <div>
+                  <Image
+                    src={ecoECHO}
+                    rounded
+                    style={{
+                      width: "100%",
+                      height: "15em",
+                      objectFit: "cover",
+                    }}
+                  />
+                </div>
+                <div style={{ margin: "1em", display: "flex" }}>
+                  <a
+                    className="link"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://ecoecho.herokuapp.com/"
+                  >
+                    <h3 style={{ marginRight: "2em" }}>ecoECHO</h3>
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/maxmanayan/ecoECHO"
+                  >
+                    <Image src={githubLogo} style={{ height: "2em" }} />
+                  </a>
+                </div>
+                <div style={{ margin: "1em" }}>
+                  <p>
+                    ecoECHO is an online forum focused on discussing humanity's
+                    impact on our environment 🌎 Includes personalized,
+                    authenticated accounts in which users can post about
+                    environmental issues, and upvote/comment on other issues.
+                  </p>
+                  <p>Stack - MongoDB, Node.js, Express.js, React.js</p>
+                  <p>
+                    Featuring - GraphQL and Apollo API design, authentication
+                    with jsonwebtoken and bcrypt, responsive-design
+                  </p>
+                </div>
+              </Jumbotron>
+            </div>
             <div>
               <Jumbotron
                 style={{
@@ -85,7 +136,7 @@ const MyProjects = () => {
                     rounded
                     style={{
                       width: "100%",
-                      height: "10em",
+                      height: "15em",
                       objectFit: "cover",
                     }}
                   />
