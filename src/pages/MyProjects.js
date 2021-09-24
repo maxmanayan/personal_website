@@ -1,8 +1,9 @@
 import { Col, Container, Image, Jumbotron, Row } from "react-bootstrap";
+import { CONTENT_BACKGROUND_GRAY, MAX_BLUE } from "../colors";
 import hackathonGrader from "../images/Hackathon_Grader.png";
 import githubLogo from "../images/GitHub-Mark-120px-plus.png";
-import { CONTENT_BACKGROUND_GRAY, MAX_BLUE } from "../colors";
 import coffeeNotes from "../images/cn_about_website.jpg";
+import ecoECHO from "../images/ecoECHO.png";
 
 const MyProjects = () => {
   return (
@@ -29,7 +30,7 @@ const MyProjects = () => {
               >
                 <div>
                   <Image
-                    src={coffeeNotes}
+                    src={ecoECHO}
                     rounded
                     style={{
                       width: "100%",
