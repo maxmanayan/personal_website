@@ -136,7 +136,7 @@ const MyProjects = () => {
                     rounded
                     style={{
                       width: "100%",
-                      height: "10em",
+                      height: "15em",
                       objectFit: "cover",
                     }}
                   />
