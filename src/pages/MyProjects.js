@@ -43,6 +43,58 @@ const MyProjects = () => {
                     className="link"
                     target="_blank"
                     rel="noreferrer"
+                    href="https://ecoecho.herokuapp.com/"
+                  >
+                    <h3 style={{ marginRight: "2em" }}>ecoECHO</h3>
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/maxmanayan/ecoECHO"
+                  >
+                    <Image src={githubLogo} style={{ height: "2em" }} />
+                  </a>
+                </div>
+                <div style={{ margin: "1em" }}>
+                  <p>
+                    Coffee Notes is an app designed to assist users with
+                    organization of their tasks. Currently featuring a
+                    personalized todo-list and kanban board, this app will
+                    increase productivity and focus while in use. Create an
+                    account!
+                  </p>
+                  <p>Stack - PostgreSQL, Ruby on Rails, React</p>
+                  <p>
+                    Featuring - React hooks, Drag-and-Drop, Todo-List,
+                    Responsive Design, Smooth Scroll, React router, React
+                    Bootstrap
+                  </p>
+                </div>
+              </Jumbotron>
+            </div>
+            <div>
+              <Jumbotron
+                style={{
+                  border: "none",
+                  background: `${CONTENT_BACKGROUND_GRAY}`,
+                }}
+              >
+                <div>
+                  <Image
+                    src={coffeeNotes}
+                    rounded
+                    style={{
+                      width: "100%",
+                      height: "15em",
+                      objectFit: "cover",
+                    }}
+                  />
+                </div>
+                <div style={{ margin: "1em", display: "flex" }}>
+                  <a
+                    className="link"
+                    target="_blank"
+                    rel="noreferrer"
                     href="https://coffeeandnotes.herokuapp.com/"
                   >
                     <h3 style={{ marginRight: "2em" }}>Coffee Notes</h3>
